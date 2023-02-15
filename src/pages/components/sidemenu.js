@@ -39,7 +39,7 @@ export default function Sidemenu() {
    return (
       <>
          <ul className="menu bg-transparent w-full p-2">
-            <li className="text-lg text-gray-700">
+            <li className="text-lg cursor-none">
                <span>Input Elements</span>
             </li>
             {inputElements.map((data) => {

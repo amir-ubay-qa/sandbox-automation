@@ -9,7 +9,7 @@ export default function Layout({ children }) {
    return (
       <>
          <div id='layout-main' className="grid grid-cols-5">
-            <aside className='bg-gray-100 max-h-screen h-screen'>
+            <aside className='bg-gray-100 dark:bg-gray-700 min-h-screen h-full'>
                <nav>
                   <Navbar />
                </nav>
@@ -17,7 +17,7 @@ export default function Layout({ children }) {
                   <Sidemenu />
                </div>
             </aside>
-            <main className='col-span-4 bg-gray-50'>
+            <main className='col-span-4 bg-gray-50 dark:bg-slate-400'>
                <div id="children">
                   {children}
                </div>
